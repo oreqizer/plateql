@@ -1,6 +1,6 @@
 # PlateQL
 
-A *GraphQL* boilerplate!
+A *GraphQL* boilerplate! :grapes:
 
 ## Stack
 
