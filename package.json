@@ -1,0 +1,51 @@
+{
+  "name": "plateql",
+  "version": "0.0.0",
+  "description": "A GraphQL server boilerplate. :grapes:",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node ./dist",
+    "watch": "gulp watch",
+    "nodemon": "nodemon ./.tmp --watch ./.tmp",
+    "build": "gulp"
+  },
+  "keywords": [
+    "relay",
+    "graphql"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "author": "oreqizer",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "~2.8.4",
+    "express": "~4.16.2",
+    "express-graphql": "~0.6.11",
+    "graphql": "~0.11.7",
+    "graphql-relay": "~0.5.3",
+    "morgan": "~1.9.0",
+    "node-fetch": "~1.7.3",
+    "uuid": "~3.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "~6.26.0",
+    "babel-eslint": "~8.0.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "~6.26.0",
+    "babel-preset-flow": "~6.23.0",
+    "eslint": "~4.9.0",
+    "eslint-config-airbnb-base": "~12.1.0",
+    "eslint-config-prettier": "~2.6.0",
+    "eslint-plugin-flowtype": "~2.39.1",
+    "eslint-plugin-import": "~2.8.0",
+    "eslint-plugin-prettier": "~2.3.1",
+    "flow-bin": "~0.58.0",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-babel": "~7.0.0",
+    "gulp-plumber": "~1.1.0",
+    "gulp-sourcemaps": "~2.6.1",
+    "gulp-watch": "~4.3.11",
+    "nodemon": "~1.12.1",
+    "prettier": "~1.7.4"
+  }
+}
