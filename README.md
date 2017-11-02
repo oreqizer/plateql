@@ -2,6 +2,13 @@
 
 A *GraphQL* boilerplate!
 
+## Stack
+
+* GraphQL
+* GraphQL Relay
+* Express
+* Flow
+
 ## Tasks
 
 **Production:**
